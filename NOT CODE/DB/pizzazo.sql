@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2026. Okt 13. 13:22
+-- Létrehozás ideje: 2026. Okt 13. 13:36
 -- Kiszolgáló verziója: 10.4.32-MariaDB
 -- PHP verzió: 8.2.12
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Adatbázis: `pizzazo`
 --
+CREATE DATABASE IF NOT EXISTS `pizzazo` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_hungarian_ci;
+USE `pizzazo`;
 
 -- --------------------------------------------------------
 

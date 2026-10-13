@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Gép: 127.0.0.1
--- Létrehozás ideje: 2026. Sze 22. 14:33
+-- Létrehozás ideje: 2026. Okt 13. 13:22
 -- Kiszolgáló verziója: 10.4.32-MariaDB
 -- PHP verzió: 8.2.12
 
@@ -20,8 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Adatbázis: `pizzazo`
 --
-CREATE DATABASE IF NOT EXISTS `pizzazo` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_hungarian_ci;
-USE `pizzazo`;
 
 -- --------------------------------------------------------
 
@@ -87,6 +85,14 @@ CREATE TABLE `szerepkör` (
   `szerepkor_id` int(11) NOT NULL,
   `megnevezes` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
+
+--
+-- A tábla adatainak kiíratása `szerepkör`
+--
+
+INSERT INTO `szerepkör` (`szerepkor_id`, `megnevezes`) VALUES
+(1, 'vasarlo'),
+(2, 'admin');
 
 -- --------------------------------------------------------
 
@@ -166,7 +172,7 @@ ALTER TABLE `szamla`
 -- AUTO_INCREMENT a táblához `szerepkör`
 --
 ALTER TABLE `szerepkör`
-  MODIFY `szerepkor_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `szerepkor_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT a táblához `termék`

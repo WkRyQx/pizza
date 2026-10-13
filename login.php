@@ -50,7 +50,7 @@ if($_SERVER["REQUEST_METHOD"]==="POST"){ $action=$_POST["action"] ?? ""; if($act
                     $_SESSION["user_pontok"]=$pontok; 
                     $_SESSION["user_kuponok"]=$kuponok; 
                     $_SESSION["user_szerepkor"]=$szerepkor; 
-                    if($szerepkor==2){
+                    if($szerepkor==1){
                          header("Location: kezdolap.php"); 
                     }else{ 
                         header("Location: admin.php"); 

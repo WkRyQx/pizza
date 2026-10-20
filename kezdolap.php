@@ -6,14 +6,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Paprika Pizza</title>
+    <link rel="icon" type="image/x-icon" href="pizza_logo.png">
+
     <link rel="stylesheet" href="kezdolap.css">
 </head>
 <body>
     <header>
         <div class="logo">
             <!-- Ide jön majd a logo -->
-            <img src="pizza_logo.jpg" alt="Paprika Pizza Logo" height="30">
+            <!-- TODO: Töltsd fel a logó képét pizza_logo.jpg néven. -->
+            <img src="pizza_logo.png" alt="Paprika Pizza Logo" height="30">
         </div>
         <nav class="nav-links">
             <a href="#">Étlap</a>
@@ -31,7 +34,8 @@
             <a href="#" style="background: #e67e22; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; display: inline-block;">Étlap megtekintése</a>
         </div>
         <div class="hero-image">
-            <img src="image_c00768.png" alt="Pizza">
+            <!-- TODO: Töltsd fel a főképet image_c00768.png néven. -->
+            <img src="nagypizza.png" alt="Pizza">
         </div>
     </section>
 
@@ -58,21 +62,24 @@
         
         <div class="pizza-grid">
             <div class="pizza-card">
-                <img src="image_c00768.png" alt="Margherita">
+                <!-- TODO: Töltsd fel a Margherita pizzához tartozó képet. -->
+                <img src="margareta.png" alt="Margherita">
                 <div class="pizza-info">
                     <h3>Margherita <span>2 490 Ft</span></h3>
                     <p>San Marzano paradicsom, mozzarella di bufala, friss bazsalikom.</p>
                 </div>
             </div>
             <div class="pizza-card">
-                <img src="image_c00768.png" alt="Quattro Formaggi">
+                <!-- TODO: Töltsd fel a Quattro Formaggi pizzához tartozó képet. -->
+                <img src="fuevlm.png" alt="Quattro Formaggi">
                 <div class="pizza-info">
                     <h3>Quattro Formaggi <span>3 290 Ft</span></h3>
                     <p>Mozzarella, parmezán, gorgonzola és ricotta sajtok.</p>
                 </div>
             </div>
             <div class="pizza-card">
-                <img src="image_c00768.png" alt="Prosciutto e Funghi">
+                <!-- TODO: Töltsd fel a Prosciutto e Funghi pizzához tartozó képet. -->
+                <img src="prprppp_pizza.png" alt="Prosciutto e Funghi">
                 <div class="pizza-info">
                     <h3>Prosciutto e Funghi <span>3 490 Ft</span></h3>
                     <p>Sonka, gomba, mozzarella és rukkola saláta.</p>
@@ -87,6 +94,7 @@
             <h3>Paprika Pizza</h3>
             <p>A város legjobb pizzériája. Minden nap frissen készítve, szeretettel.</p>
         </div>
+        <hr>
         <div class="footer-bottom">
             <p>&copy; 2024 Paprika Pizza. Minden jog fenntartva.</p>
         </div>

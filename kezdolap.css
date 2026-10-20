@@ -24,6 +24,7 @@ header {
     padding: 40px;
     align-items: center;
     justify-content: space-between;
+    color: #fff;
 }
 
 .hero-text {
@@ -81,4 +82,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 40px;
+}
+body{
+    background-color: #ffefaf;
 }

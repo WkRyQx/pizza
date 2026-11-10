@@ -41,10 +41,27 @@ $error = "";
     <p>Termékek szerkesztése</p>
     
     <?php
-    // Lekérdezzük az összes terméket az adatbázisból
+    //összes terméket az adatbázisból
     $sql = "SELECT * FROM termék";
     $result = $conn->query($sql);
-    ?>
 
+    echo "<table border='1'>";
+    echo "<tr><th>ID</th><th>Név</th><th>Leírás</th><th>Ár</th><th>Műveletek</th></tr>";
+    if ($result->num_rows > 0) {    
+        
+        while ($row = $result->fetch_assoc()) {
+            echo "<tr>";
+            echo "<td>" . $row['termek_id'] . "</td>";
+            echo "<td>" . $row['termek_nev'] . "</td>";
+            echo "<td>" . $row['tipus'] . "</td>";
+            echo "<td>" . $row['ar'] . "</td>";
+            echo "<td><a href='termek_szerkeszt.php?id=" . $row['termek_id'] . "'>Szerkesztés</a> | <a href='termek_torles.php?id=" . $row['termek_id'] . "'>Törlés</a></td>";
+            echo "</tr>";
+        }
+    } else {
+        echo "<tr><td colspan='6'>Nincs termék az adatbázisban.</td></tr>";
+    }
+    echo "</table>";
+    ?>
 </body>
 </html>

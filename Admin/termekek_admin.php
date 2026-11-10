@@ -42,7 +42,7 @@ $error = "";
     
     <?php
     // Lekérdezzük az összes terméket az adatbázisból
-    $sql = "SELECT * FROM termekek";
+    $sql = "SELECT * FROM termék";
     $result = $conn->query($sql);
     ?>
 

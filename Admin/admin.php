@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-if (!isset($_SESSION['user_id'])) {
+if (!isset($_SESSION['user_szerepkor'])) {
     header("Location: login.php");
     exit();
 }
@@ -33,18 +33,16 @@ $error = "";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Termékek Admin</title>
+    <title>Admin Panel</title>
 </head>
 <body>
-    <h1>Termékek</h1>
-
-    <p>Termékek szerkesztése</p>
-    
-    <?php
-    // Lekérdezzük az összes terméket az adatbázisból
-    $sql = "SELECT * FROM termekek";
-    $result = $conn->query($sql);
-    ?>
-
+        <h1>Admin Panel</h1>
+        <ul>
+            <li><a href="termekek_admin.php">Termékek kezelése</a></li>
+            <li><a href="rendelesek_admin.php">Rendelések kezelése</a></li>
+            <li><a href="kuponok_admin.php">Kuponok kezelése</a></li>
+            <li><a href="felhasznalo_admin.php">Felhasználók kezelése</a></li>                           
+        </ul>
+        <a href="../kijelentkezes.php">Kijelentkezés</a>
 </body>
 </html>

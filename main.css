@@ -1,0 +1,33 @@
+/* ================= Hiba Üzenet ================= */
+.msg {
+    position: absolute;
+    top: 20px;       
+    left: 110px;
+    transform: translateX(-50%); 
+    width: 190px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+    z-index: 9999;    
+    animation: slideInOut 5s ease-in-out forwards; 
+}
+
+@keyframes slideInOut {
+    0% {
+        opacity: 0;
+        left: -50px;
+    }
+    20% {
+        opacity: 1;
+        left: 110px;      
+    }
+    80% {
+        opacity: 1;
+        left: 110px;      
+    }
+    100% {
+        opacity: 0;
+        left: -50px;     
+    }
+}

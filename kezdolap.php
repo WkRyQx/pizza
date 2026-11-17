@@ -28,7 +28,7 @@
 
     <section class="hero">
         <div class="hero-text">
-            <span style="color: #f39c12; font-size: 12px; font-weight: bold;">FRISS SZÁLLÍTÁS &nbsp; 30 perc alatt</span>
+            <span class="hero-badge">FRISS SZÁLLÍTÁS &nbsp; 30 perc alatt</span>
             <h1>Igazi olasz ízek, hazai alapanyagokból.</h1>
             <p>Kézzel nyújtott tészták, füstölt sajtok és friss zöldségek. Minden pizzánk a konyhánkban készül, a hagyományos olasz receptek szerint.</p>
             <a href="#" style="background: #e67e22; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; display: inline-block;">Étlap megtekintése</a>
@@ -52,6 +52,7 @@
         <div class="feature-box">
             <h3>Házias hangulat</h3>
             <p>Olyan ételeket, amelyeket szeretettel készítünk, és örömmel fogyasztunk.</p>
+            <a href="#" style="background: #e67e22; color: white; padding: 10px 20px; text-decoration: none; border-radius: 4px; display: block; width: fit-content; margin-left: auto;">Teljes étlap megtekintése</a>
         </div>
     </section>
 
@@ -63,7 +64,7 @@
         <div class="pizza-grid">
             <div class="pizza-card">
                 <!-- TODO: Töltsd fel a Margherita pizzához tartozó képet. -->
-                <img src="margareta.png" alt="Margherita">
+                <img src="141f2ed8-597a-47e0-8365-ca0a81fb0192.png" alt="Margherita">
                 <div class="pizza-info">
                     <h3>Margherita <span>2 490 Ft</span></h3>
                     <p>San Marzano paradicsom, mozzarella di bufala, friss bazsalikom.</p>

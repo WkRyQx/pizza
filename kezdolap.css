@@ -10,7 +10,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #fafafa;
+    background: #fafafa;
 }
 
 .nav-links a {
@@ -24,7 +25,11 @@ header {
     padding: 40px;
     align-items: center;
     justify-content: space-between;
-    color: #fff;
+        
+}
+
+.hero h1 {
+    color: #000000;
 }
 
 .hero-text {
@@ -45,15 +50,16 @@ header {
 }
 
 .feature-box {
-    border: 1px solid #eee;
+    border: 1px solid #fafafa;
     padding: 20px;
     border-radius: 8px;
     flex: 1;
-    background: #fff;
+    background: #ffffff;
 }
 
 .menu-section {
     padding: 40px;
+    background: #fafafa;
 }
 
 .pizza-grid {
@@ -63,7 +69,7 @@ header {
 
 .pizza-card {
     flex: 1;
-    border: 1px solid #eee;
+    border: 1px solid #fafafa;
     border-radius: 8px;
     overflow: hidden;
 }
@@ -83,6 +89,9 @@ footer {
     text-align: center;
     padding: 40px;
 }
-body{
-    background-color: #ffefaf;
+
+.hero-badge {
+    color: #f39c12;
+    font-size: 12px;
+    font-weight: bold;
 }
